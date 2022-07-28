@@ -3,7 +3,7 @@ FROM swift:5.5.2 AS base
 RUN apt-get -q update && \
     apt-get install -y git make
 
-ARG GRPC_SWIFT_VERSION=1.6.1
+ARG GRPC_SWIFT_VERSION=1.7.2
 
 # Build and install the swiftgrpc plugin
 WORKDIR /tmp/grpc-build

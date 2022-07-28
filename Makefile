@@ -1,4 +1,4 @@
-GRPC_SWIFT_VERSION := 1.6.1
+GRPC_SWIFT_VERSION := 1.7.2
 PLUGIN_VERSION := 1
 
 BASE_NAME := plugins.buf.build/ngu-tek
